@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## x.y.z
 
 ### Added
+- Re-add a Vagrant setup (#30)
 - Add Infection (#29)
 - Add a PHPUnit configuration file (#25)
 - Re-add support for PHP 7.1 and 7.2 (#24)

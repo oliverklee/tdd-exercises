@@ -19,6 +19,25 @@ You will need a local PHP (>= 7.1) installation with Composer.
 If you would like to use Infection for mutation testing, you will also need
 Xdebug.
 
+#### Vagrant
+
+If you do not have a (recent) local PHP, you can also use
+[Vagrant](https://www.vagrantup.com/) with
+[VirtualBox](https://www.virtualbox.org/) instead to run a PHP 7.4 box:
+
+```bash
+vagrant up
+vagrant ssh
+```
+
+You will also need to set up the Vagrant box PHP interpreter in PhpStorm:
+
+1. File > Settings
+1. Languages & Frameworks > PHP
+1. CLI interpreter > …
+1. [+] > From Docker, Vagrant, VM, WSL, Remote…
+1. Vagrant with default settings
+
 ### Installing the Composer packages
 
 Run `composer install` to install the required Composer packages.
