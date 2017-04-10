@@ -7,6 +7,26 @@ This is a starter repository for a project with PHPUnit.
 
 ## Installation
 
+
+### PHP
+
+#### Local PHP
+
+You will need a local PHP installation with Composer (which is the
+preferred way).
+
+#### Vagrant
+
+Instead, you can also use Vagrant to run on a PHP 7 box.
+```
+vagrant up
+vagrant ssh
+cd tdd-seed/
+```
+
+
+### Composer packages
+
 Run `composer install` to install the required Composer packages.
 
 
