@@ -24,6 +24,11 @@ vagrant ssh
 cd tdd-seed/
 ```
 
+You will then need to set up a remote PHP interpreter and PHPUnit as described
+in the [PhpStorm documentation](https://confluence.jetbrains.com/display/PhpStorm/Running+PHPUnit+tests+over+SSH+on+a+remote+server+with+PhpStorm).
+
+The PHP executable path on the Vagrant machine is `/usr/local/bin/php`.
+
 
 ### Composer packages
 
