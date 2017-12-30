@@ -1,7 +1,7 @@
 {
     "name": "oliverklee/tdd-seed",
     "description": "This is a starter repository for a project with PHPUnit.",
-    "tags": [
+    "keywords": [
         "template",
         "tdd",
         "phpunit"
@@ -14,9 +14,7 @@
         }
     ],
     "require": {
-        "php": "~7.0.0 || ~7.1.0",
-
-        "roave/security-advisories": "dev-master"
+        "php": "~7.0.0 || ~7.1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.3.0",
