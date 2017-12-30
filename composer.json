@@ -1,7 +1,11 @@
 {
     "name": "oliverklee/tdd-seed",
     "description": "This is a starter repository for a project with PHPUnit.",
-    "tags": ["template", "tdd", "phpunit"],
+    "tags": [
+        "template",
+        "tdd",
+        "phpunit"
+    ],
     "license": "GPL-3.0+",
     "authors": [
         {
