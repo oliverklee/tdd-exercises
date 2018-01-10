@@ -1,18 +1,27 @@
 {
     "name": "oliverklee/tdd-seed",
-    "description": "This is a starter repository for a project with PHPUnit.",
+    "description": "Starter repository for a project with PHPUnit",
+    "type": "project",
     "keywords": [
         "template",
         "tdd",
-        "phpunit"
+        "phpunit",
+        "unit testing"
     ],
-    "license": "GPL-3.0+",
+    "homepage": "https://github.com/oliverklee/tdd-reader",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Oliver Klee",
-            "email": "typo3-coding@oliverklee.de"
+            "email": "typo3-coding@oliverklee.de",
+            "homepage": "https://www.oliverklee.de/",
+            "role": "developer"
         }
     ],
+    "support": {
+        "source": "https://github.com/oliverklee/tdd-seed",
+        "issues": "https://github.com/oliverklee/tdd-seed/issues"
+    },
     "require": {
         "php": "~7.0.0 || ~7.1.0 || ~7.2.0"
     },
