@@ -7,6 +7,8 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Added
 
+- Composer script for PHP linting
+
 ### Changed
 
 ### Deprecated
