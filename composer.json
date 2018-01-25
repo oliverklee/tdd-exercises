@@ -38,5 +38,8 @@
         "psr-4": {
             "OliverKlee\\TddSeed\\Tests\\": "Tests/"
         }
+    },
+    "scripts": {
+        "php-lint": "find Classes/ Tests/ -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l"
     }
 }
