@@ -27,4 +27,14 @@ script:
 - >
   echo;
   echo "Linting all PHP files";
-  composer php-lint;
+  composer ci:php:lint;
+
+- >
+  echo;
+  echo "Running the unit tests";
+  composer ci:tests:unit;
+
+- >
+  echo;
+  echo "Running the integration tests";
+  composer ci:tests:integration;

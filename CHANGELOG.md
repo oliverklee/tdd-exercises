@@ -7,6 +7,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Added
 
+- Run the tests on TravisCI
 - Composer script for PHP linting
 
 ### Changed
