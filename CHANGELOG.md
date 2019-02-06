@@ -6,7 +6,6 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## x.y.z
 
 ### Added
-
 - Run the tests on TravisCI
 - Composer script for PHP linting
 
@@ -17,4 +16,4 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Removed
 
 ### Fixed
-
+- Fix the casing of the vfsstream package (#5)
