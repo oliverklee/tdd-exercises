@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+declare(strict_types = 1);
 
 namespace OliverKlee\TddSeed\Tests\Unit;
 
@@ -27,7 +27,7 @@ class WorldTest extends TestCase
     /**
      * @test
      */
-    public function timeSpaceContinuumIsConsistent()
+    public function timeSpaceContinuumIsConsistent(): void
     {
         self::assertSame(4, 2 + 2);
     }
@@ -35,7 +35,7 @@ class WorldTest extends TestCase
     /**
      * @test
      */
-    public function canBeInstantiated()
+    public function canBeInstantiated(): void
     {
         self::assertInstanceOf(World::class, $this->subject);
     }
