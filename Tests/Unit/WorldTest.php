@@ -11,13 +11,15 @@ use PHPUnit\Framework\TestCase;
  */
 class WorldTest extends TestCase
 {
-    /** @var World */
+    /**
+     * @var World
+     */
     private $subject = null;
 
     /**
      * @return void
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->subject = new World();
     }
