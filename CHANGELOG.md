@@ -12,6 +12,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Composer script for PHP linting
 
 ### Changed
+- Upgrade to PHPUnit 9 (#20)
 - Drop support for PHP 7.2 (#19)
 - Switch to a Symfony-style directory structure (#18)
 - Switch from TravisCI to GitHub Actions (#12, #13)
