@@ -1,5 +1,6 @@
 # TDD seed project
 
+[![HitHub CI Status](https://github.com/oliverklee/tdd-seed/workflows/CI/badge.svg?branch=main)](https://github.com/oliverklee/tdd-seed/actions)
 [![Build Status](https://travis-ci.org/oliverklee/tdd-seed.svg?branch=master)](https://travis-ci.org/oliverklee/tdd-seed)
 [![Latest Stable Version](https://poser.pugx.org/oliverklee/tdd-seed/v/stable.svg)](https://packagist.org/packages/oliverklee/tdd-seed)
 [![Total Downloads](https://poser.pugx.org/oliverklee/tdd-seed/downloads.svg)](https://packagist.org/packages/oliverklee/tdd-seed)
