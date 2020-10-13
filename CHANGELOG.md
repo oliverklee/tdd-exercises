@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## x.y.z
 
 ### Added
+- Add a and version the `composer.lock` (#17)
 - Add support for PHP 7.4 (#16)
 - Run the tests on TravisCI
 - Composer script for PHP linting
