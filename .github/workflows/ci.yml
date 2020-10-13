@@ -9,23 +9,6 @@ on:
       - main
 
 jobs:
-  composer-validate:
-    name: "composer.json validation"
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        php-version:
-          - 7.4
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: "Install PHP"
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: "${{ matrix.php-version }}"
-      - name: "Validate"
-        run: "composer validate --no-check-all --no-check-lock --strict"
-
   php-lint:
     name: "PHP linter"
     runs-on: ubuntu-latest
@@ -47,7 +30,7 @@ jobs:
   unit-tests:
     name: "Unit tests"
     runs-on: ubuntu-latest
-    needs: [composer-validate, php-lint]
+    needs: php-lint
     strategy:
       matrix:
         php-version:
@@ -77,7 +60,7 @@ jobs:
   integration-tests:
     name: "Integration tests"
     runs-on: ubuntu-latest
-    needs: [composer-validate, php-lint]
+    needs: php-lint
     strategy:
       matrix:
         php-version:
