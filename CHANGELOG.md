@@ -6,10 +6,12 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## x.y.z
 
 ### Added
+- Add support for PHP 7.4 (#16)
 - Run the tests on TravisCI
 - Composer script for PHP linting
 
 ### Changed
+- Switch from TravisCI to GitHub Actions (#12, #13)
 
 ### Deprecated
 
