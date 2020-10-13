@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "OliverKlee\\TddSeed\\": "Classes/"
+            "OliverKlee\\TddSeed\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OliverKlee\\TddSeed\\Tests\\": "Tests/"
+            "OliverKlee\\TddSeed\\Tests\\": "tests/"
         }
     },
     "prefer-stable": true,
@@ -50,12 +50,12 @@
         "sort-packages": true
     },
     "scripts": {
-        "ci:php:lint": "find Classes Tests -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l",
-        "ci:tests:unit": "phpunit Tests/Unit",
-        "ci:tests:integration": "phpunit Tests/Integration",
+        "ci:php:lint": "find src tests -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l",
+        "ci:tests:unit": "phpunit tests/Unit",
+        "ci:tests:functional": "phpunit tests/Functional",
         "ci:tests": [
             "@ci:tests:unit",
-            "@ci:tests:integration"
+            "@ci:tests:functional"
         ],
         "ci:static": [
             "@ci:php:lint"
