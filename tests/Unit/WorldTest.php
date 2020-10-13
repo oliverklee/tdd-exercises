@@ -6,10 +6,7 @@ namespace OliverKlee\TddSeed\Tests\Unit;
 use OliverKlee\TddSeed\World;
 use PHPUnit\Framework\TestCase;
 
-/**
- * Test case.
- */
-class WorldTest extends TestCase
+final class WorldTest extends TestCase
 {
     /**
      * @var World
