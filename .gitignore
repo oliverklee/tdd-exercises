@@ -11,6 +11,7 @@
 .session
 .settings
 .webprj
+/infection.log
 /test-list.txt
 /vendor/
 nbproject
