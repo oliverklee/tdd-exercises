@@ -16,9 +16,27 @@ This is a starter repository for a project with PHPUnit.
 
 You will need a local PHP (>= 7.1) installation with Composer.
 
-### Composer packages
+If you would like to use Infection for mutation testing, you will also need
+Xdebug.
+
+### Installing the Composer packages
 
 Run `composer install` to install the required Composer packages.
+
+## Having a test list
+
+For your test list, please create a fill `test-list.txt`.
+Git will ignore it for you.
+
+## Mutation testing
+
+You can run the mutation testing with Infection to catch missing test cases:
+
+```bash
+vendor/bin/infection
+```
+
+Infection then will log its findings into the file `infection.log`.
 
 ## About me (Oliver Klee)
 
