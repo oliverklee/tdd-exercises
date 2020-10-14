@@ -11,5 +11,6 @@
 .session
 .settings
 .webprj
+/test-list.txt
 /vendor/
 nbproject
