@@ -6,6 +6,9 @@ namespace OliverKlee\TddSeed\Tests\Unit;
 use OliverKlee\TddSeed\World;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \OliverKlee\TddSeed\World
+ */
 final class WorldTest extends TestCase
 {
     /**
