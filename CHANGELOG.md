@@ -13,13 +13,14 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 - Upgrade to PHPUnit 9 (#20)
-- Drop support for PHP 7.2 (#19)
 - Switch to a Symfony-style directory structure (#18)
 - Switch from TravisCI to GitHub Actions (#12, #13)
 
 ### Deprecated
 
 ### Removed
+- Drop the Vagrant configuration (#23)
+- Drop support for PHP 7.2 (#19)
 
 ### Fixed
 - Fix the casing of the vfsstream package (#5)

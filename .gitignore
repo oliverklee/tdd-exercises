@@ -11,6 +11,5 @@
 .session
 .settings
 .webprj
-/.vagrant
 /vendor/
 nbproject
