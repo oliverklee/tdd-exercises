@@ -14,23 +14,7 @@ This is a starter repository for a project with PHPUnit.
 
 #### Local PHP
 
-You will need a local PHP (>= 7.2) installation with Composer (which is the
-preferred way).
-
-#### Vagrant
-
-Instead, you can also use Vagrant to run on a PHP 7 box.
-
-```bash
-vagrant up
-vagrant ssh
-cd tdd-seed/
-```
-
-You will then need to set up a remote PHP interpreter and PHPUnit as described
-in the [PhpStorm documentation](https://confluence.jetbrains.com/display/PhpStorm/Running+PHPUnit+tests+over+SSH+on+a+remote+server+with+PhpStorm).
-
-The PHP executable path on the Vagrant machine is `/usr/local/bin/php`.
+You will need a local PHP (>= 7.1) installation with Composer.
 
 ### Composer packages
 
