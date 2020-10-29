@@ -56,7 +56,7 @@ jobs:
           restore-keys: "php${{ matrix.php-version }}-composer-\n"
       - name: "Install composer dependencies"
         run: |
-          composer install --no-ansi --no-interaction --no-progress --no-suggest
+          composer install --no-ansi --no-interaction --no-progress
           composer show
       - name: "Run tests"
         run: "composer ci:tests:unit"
@@ -88,7 +88,7 @@ jobs:
           restore-keys: "php${{ matrix.php-version }}-composer-\n"
       - name: "Install composer dependencies"
         run: |
-          composer install --no-ansi --no-interaction --no-progress --no-suggest
+          composer install --no-ansi --no-interaction --no-progress
           composer show
       - name: "Run tests"
         run: "composer ci:tests:functional"

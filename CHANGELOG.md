@@ -26,4 +26,5 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Drop support for PHP 7.2 (#19)
 
 ### Fixed
+- Make compatible with Composer 2 (#31)
 - Fix the casing of the vfsstream package (#5)
