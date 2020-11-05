@@ -22,6 +22,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Deprecated
 
 ### Removed
+- Drop support for PHP 7.1 and 7.2 again (#33)
 - Drop the Vagrant configuration (#23)
 - Drop support for PHP 7.2 (#19)
 
