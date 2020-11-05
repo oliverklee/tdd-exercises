@@ -14,7 +14,7 @@ This is a starter repository for a project with PHPUnit.
 
 #### Local PHP
 
-You will need a local PHP (>= 7.1) installation with Composer.
+You will need a local PHP installation with Composer.
 
 If you would like to use Infection for mutation testing, you will also need
 Xdebug.
