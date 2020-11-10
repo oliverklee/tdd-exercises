@@ -26,9 +26,9 @@
         "php": "~7.3.0 || ~7.4.0"
     },
     "require-dev": {
-        "infection/infection": "^0.18.1",
+        "infection/infection": "^0.18.2",
         "mikey179/vfsstream": "^1.6.8",
-        "phpunit/phpunit": "^9.4.2",
+        "phpunit/phpunit": "^9.4.3",
         "phpspec/prophecy-phpunit": "^2.0.1"
     },
     "autoload": {
