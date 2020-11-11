@@ -75,6 +75,14 @@ final class RunLengthEncoderTest extends TestCase
 
     /**
      * @test
+     */
+    public function compressEncodesNonAsciiBytes(): void
+    {
+        self::markTestIncomplete('Code me!');
+    }
+
+    /**
+     * @test
      *
      * @dataProvider singleBytesDataProvider
      */
@@ -136,6 +144,14 @@ final class RunLengthEncoderTest extends TestCase
         $this->expectExceptionCode(1605025867);
 
         $this->subject->decompress('What is love?');
+    }
+
+    /**
+     * @test
+     */
+    public function compressAlwaysMarksMarkerByteAsSequence(): void
+    {
+        self::markTestIncomplete('This currently does not work. Probably due to a bug.');
     }
 
     /**

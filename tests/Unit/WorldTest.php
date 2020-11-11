@@ -1,5 +1,5 @@
 <?php
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace OliverKlee\TddSeed\Tests\Unit;
 
@@ -38,5 +38,17 @@ final class WorldTest extends TestCase
     public function canBeInstantiated(): void
     {
         self::assertInstanceOf(World::class, $this->subject);
+    }
+
+    /**
+     * @test
+     */
+    public function stringContainsForCaseSensitiveMatchAtStartReturnsTrue(): void
+    {
+        if (PHP_VERSION_ID < 80000) {
+            self::markTestSkipped('The tested function is available in PHP >= 8.0 only.');
+        }
+
+        self::assertTrue(str_contains('Wegelarerei', 'Weg'));
     }
 }
