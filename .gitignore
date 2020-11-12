@@ -11,6 +11,7 @@
 .session
 .settings
 .webprj
+/.phpunit.cache/
 /infection.log
 /test-list.txt
 /vendor/
