@@ -12,10 +12,7 @@ use PHPUnit\Framework\TestCase;
  */
 final class RunLengthEncoderTest extends TestCase
 {
-    /**
-     * @var RunLengthEncoder
-     */
-    private $subject = null;
+    private RunLengthEncoder $subject;
 
     protected function setUp(): void
     {
