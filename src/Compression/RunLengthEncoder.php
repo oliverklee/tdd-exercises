@@ -81,13 +81,13 @@ class RunLengthEncoder implements CompressorInterface
         $payloadLength = strlen($payload);
         $position = 0;
         while ($position < $payloadLength) {
-            $currentByte = $payload{$position};
+            $currentByte = $payload[$position];
             if ($currentByte !== self::MARKER) {
                 $uncompressedData .= $currentByte;
                 $position++;
             } else {
-                $repetitions = ord($payload{$position + 1});
-                $repeatable = $payload{$position + 2};
+                $repetitions = ord($payload[$position + 1]);
+                $repeatable = $payload[$position + 2];
                 $uncompressedData .= str_repeat($repeatable, $repetitions);
                 $position += 3;
             }
