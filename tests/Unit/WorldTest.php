@@ -11,10 +11,7 @@ use PHPUnit\Framework\TestCase;
  */
 final class WorldTest extends TestCase
 {
-    /**
-     * @var World
-     */
-    private $subject = null;
+    private World $subject;
 
     /**
      * @return void
