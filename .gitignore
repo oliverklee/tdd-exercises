@@ -12,6 +12,7 @@
 .settings
 .webprj
 /.phpunit.cache/
+/composer.lock
 /infection.log
 /test-list.txt
 /vendor/
