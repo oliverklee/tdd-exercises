@@ -23,7 +23,7 @@
         "issues": "https://github.com/oliverklee/tdd-seed/issues"
     },
     "require": {
-        "php": "~7.3.0 || ~7.4.0"
+        "php": "~7.4.0"
     },
     "require-dev": {
         "infection/infection": "^0.18.2",
@@ -44,7 +44,7 @@
     "prefer-stable": true,
     "config": {
         "platform": {
-            "php": "7.3.10"
+            "php": "7.4.3"
         },
         "preferred-install": {
             "*": "dist"
