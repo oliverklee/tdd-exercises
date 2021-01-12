@@ -24,6 +24,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: "${{ matrix.php-version }}"
+          coverage: none
       - name: "Run PHP lint"
         run: "composer ci:php:lint"
 
@@ -43,6 +44,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: "${{ matrix.php-version }}"
+          coverage: none
       - name: "Cache dependencies installed with composer"
         uses: actions/cache@v1
         with:
@@ -74,6 +76,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: "${{ matrix.php-version }}"
+          coverage: none
       - name: "Cache dependencies installed with composer"
         uses: actions/cache@v1
         with:
