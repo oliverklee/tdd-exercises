@@ -116,10 +116,10 @@ final class RunLengthEncoderTest extends TestCase
     public function compressCompressesIdenticalSubsequentBytesWithCount(string $data): void
     {
         $result = $this->subject->compress($data);
-        $marker = $result{$this->getPrefixLength() - 1};
+        $marker = $result[$this->getPrefixLength() - 1];
 
         $payload = substr($result, $this->getPrefixLength());
-        $expectedPayload = $marker . chr(strlen($data)) . $data{0};
+        $expectedPayload = $marker . chr(strlen($data)) . $data[0];
         self::assertSame($expectedPayload, $payload);
     }
 
