@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## x.y.z
 
 ### Added
+- Add PHP 8 compatibility (#46)
 - Add an RLE encoder/decoder (#38)
 - Add Infection (#29)
 - Add a PHPUnit configuration file (#25)
