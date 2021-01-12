@@ -42,6 +42,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: "${{ matrix.php-version }}"
+          tools: composer:v2
           coverage: none
       - name: "Cache dependencies installed with composer"
         uses: actions/cache@v1
@@ -52,7 +53,6 @@ jobs:
           restore-keys: "php${{ matrix.php-version }}-composer-\n"
       - name: "Install composer dependencies"
         run: |
-          composer selfupdate --1
           composer update --no-ansi --no-interaction --no-progress
           composer show
       - name: "Run tests"
@@ -73,6 +73,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: "${{ matrix.php-version }}"
+          tools: composer:v2
           coverage: none
       - name: "Cache dependencies installed with composer"
         uses: actions/cache@v1
@@ -83,7 +84,6 @@ jobs:
           restore-keys: "php${{ matrix.php-version }}-composer-\n"
       - name: "Install composer dependencies"
         run: |
-          composer selfupdate --1
           composer update --no-ansi --no-interaction --no-progress
           composer show
       - name: "Run tests"
