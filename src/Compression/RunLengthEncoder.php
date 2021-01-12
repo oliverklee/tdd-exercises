@@ -58,7 +58,7 @@ class RunLengthEncoder implements CompressorInterface
             if ($chunkLength < self::MINIMUM_CHUNK_LENGTH) {
                 $result .= $chunk;
             } else {
-                $result .= self::MARKER . chr($chunkLength) . $chunk{0};
+                $result .= self::MARKER . chr($chunkLength) . $chunk[0];
             }
         }
 
