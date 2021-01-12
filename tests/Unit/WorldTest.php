@@ -49,6 +49,6 @@ final class WorldTest extends TestCase
             self::markTestSkipped('The tested function is available in PHP >= 8.0 only.');
         }
 
-        self::assertTrue(str_contains('Wegelarerei', 'Weg'));
+        self::assertTrue(str_contains('Wegelagerei', 'Weg'));
     }
 }
