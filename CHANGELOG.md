@@ -29,6 +29,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Drop support for PHP 7.2 (#19)
 
 ### Fixed
+- Do not enforce strict coverage annotations (#50)
 - Stop using curly braces for string indices (#47, #48, #49)
 - Keep GitHub actions on Composer 1 (#32)
 - Make compatible with Composer 2 (#31)
