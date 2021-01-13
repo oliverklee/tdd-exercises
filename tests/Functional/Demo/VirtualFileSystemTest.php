@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * @coversNothing
  */
-class VirtualFileSystemTest extends TestCase
+final class VirtualFileSystemTest extends TestCase
 {
     /** @var string */
     private const ROOT = 'home';
