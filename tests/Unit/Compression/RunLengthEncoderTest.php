@@ -5,6 +5,7 @@ namespace OliverKlee\TddSeed\Tests\Unit\Compression;
 
 use OliverKlee\TddSeed\Compression\CompressorInterface;
 use OliverKlee\TddSeed\Compression\RunLengthEncoder;
+use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -194,5 +195,19 @@ final class RunLengthEncoderTest extends TestCase
         $decompressed = $this->subject->decompress($compressed);
 
         self::assertSame($originalData, $decompressed);
+    }
+
+    /**
+     * @test
+     */
+    public function canCreatePartialMockForDifferentAlgorithmCode(): void
+    {
+        /** @var RunLengthEncoder|MockObject $mock */
+        $mock = $this->createPartialMock(RunLengthEncoder::class, ['getAlgorithmCode']);
+
+        $algorithm = 'ZIP';
+        $mock->method('getAlgorithmCode')->willReturn($algorithm);
+
+        self::assertSame($algorithm, $mock->getAlgorithmCode());
     }
 }

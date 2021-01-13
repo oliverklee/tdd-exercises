@@ -6,6 +6,7 @@ namespace OliverKlee\TddSeed\Tests\Unit\Sniffer;
 use OliverKlee\TddSeed\Sniffer\AbstractSniffer;
 use OliverKlee\TddSeed\Sniffer\SnifferInterface;
 use OliverKlee\TddSeed\Tests\Unit\Sniffer\Fixtures\BlindSniffer;
+use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -13,19 +14,15 @@ use PHPUnit\Framework\TestCase;
  */
 final class AbstractSnifferTest extends TestCase
 {
-    private AbstractSniffer $subject;
-
-    protected function setUp(): void
-    {
-        $this->subject = $this->getMockForAbstractClass(AbstractSniffer::class);
-    }
-
     /**
      * @test
      */
     public function extendsAbstractClass(): void
     {
-        self::assertInstanceOf(AbstractSniffer::class, $this->subject);
+        /** @var AbstractSniffer|MockObject $subject */
+        $subject = $this->getMockForAbstractClass(AbstractSniffer::class);
+
+        self::assertInstanceOf(AbstractSniffer::class, $subject);
     }
 
     /**
@@ -33,13 +30,16 @@ final class AbstractSnifferTest extends TestCase
      */
     public function implementsSnifferInterface(): void
     {
-        self::assertInstanceOf(SnifferInterface::class, $this->subject);
+        /** @var AbstractSniffer|MockObject $subject */
+        $subject = $this->getMockForAbstractClass(AbstractSniffer::class);
+
+        self::assertInstanceOf(SnifferInterface::class, $subject);
     }
 
     /**
      * @test
      */
-    public function getHumanReadableNameReturnsNameFromField(): void
+    public function getHumanReadableNameReturnsNameFromField1(): void
     {
         $subject = new BlindSniffer();
 
