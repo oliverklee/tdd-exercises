@@ -9,7 +9,7 @@ use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ProphecySubjectInterface;
 
 /**
- * @covers \OliverKlee\TddSeed\Sniffer\SnifferInterface
+ * @coversNothing
  */
 final class SnifferInterfaceTest extends TestCase
 {
