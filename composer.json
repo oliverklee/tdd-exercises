@@ -23,7 +23,8 @@
         "issues": "https://github.com/oliverklee/tdd-seed/issues"
     },
     "require": {
-        "php": "~7.4.0 || ~8.0.0"
+        "php": "~7.4.0 || ~8.0.0",
+        "swiftmailer/swiftmailer": "^6.2.5"
     },
     "require-dev": {
         "infection/infection": "^0.21.0",
