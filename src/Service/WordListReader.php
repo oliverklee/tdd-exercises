@@ -20,9 +20,9 @@ class WordListReader
         $words = [];
         foreach ($content as $row) {
 
-            if (count(explode(' ', $row)) > 1) {
-                throw new UnexpectedValueException('More than one word per line was found', 1610639067);
-            }
+//            if (count(explode(' ', $row)) > 1) {
+//                throw new UnexpectedValueException('More than one word per line was found', 1610639067);
+//            }
 
             $words[] = trim($row);
 
