@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Sniffer;
+namespace OliverKlee\TddExercises\Sniffer;
 
 interface SnifferInterface
 {

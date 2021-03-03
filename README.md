@@ -1,12 +1,12 @@
-# TDD seed project
+# Exercises for test-driven development
 
-[![BuildStatus](https://github.com/oliverklee/tdd-seed/workflows/CI/badge.svg?branch=main)](https://github.com/oliverklee/tdd-seed/actions)
-[![Latest Stable Version](https://poser.pugx.org/oliverklee/tdd-seed/v/stable.svg)](https://packagist.org/packages/oliverklee/tdd-seed)
-[![Total Downloads](https://poser.pugx.org/oliverklee/tdd-seed/downloads.svg)](https://packagist.org/packages/oliverklee/tdd-seed)
-[![Latest Unstable Version](https://poser.pugx.org/oliverklee/tdd-seed/v/unstable.svg)](https://packagist.org/packages/oliverklee/tdd-seed)
-[![License](https://poser.pugx.org/oliverklee/tdd-seed/license.svg)](https://packagist.org/packages/oliverklee/tdd-seed)
+[![BuildStatus](https://github.com/oliverklee/tdd-exercises/workflows/CI/badge.svg?branch=main)](https://github.com/oliverklee/tdd-exercises/actions)
+[![Latest Stable Version](https://poser.pugx.org/oliverklee/tdd-exercises/v/stable.svg)](https://packagist.org/packages/oliverklee/tdd-exercises)
+[![Total Downloads](https://poser.pugx.org/oliverklee/tdd-exercises/downloads.svg)](https://packagist.org/packages/oliverklee/tdd-exercises)
+[![Latest Unstable Version](https://poser.pugx.org/oliverklee/tdd-exercises/v/unstable.svg)](https://packagist.org/packages/oliverklee/tdd-exercises)
+[![License](https://poser.pugx.org/oliverklee/tdd-exercises/license.svg)](https://packagist.org/packages/oliverklee/tdd-exercises)
 
-This is a starter repository for a project with PHPUnit.
+This project contains code to be used in my TDD workshops.
 
 ## Installation
 

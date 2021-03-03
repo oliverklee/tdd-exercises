@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Unit\Compression;
+namespace OliverKlee\TddExercises\Tests\Unit\Compression;
 
-use OliverKlee\TddSeed\Compression\CompressorInterface;
-use OliverKlee\TddSeed\Compression\RunLengthEncoder;
+use OliverKlee\TddExercises\Compression\CompressorInterface;
+use OliverKlee\TddExercises\Compression\RunLengthEncoder;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \OliverKlee\TddSeed\Compression\RunLengthEncoder
+ * @covers \OliverKlee\TddExercises\Compression\RunLengthEncoder
  */
 final class RunLengthEncoderTest extends TestCase
 {

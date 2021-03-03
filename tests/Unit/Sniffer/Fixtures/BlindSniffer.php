@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Unit\Sniffer\Fixtures;
+namespace OliverKlee\TddExercises\Tests\Unit\Sniffer\Fixtures;
 
-use OliverKlee\TddSeed\Sniffer\AbstractSniffer;
+use OliverKlee\TddExercises\Sniffer\AbstractSniffer;
 
 class BlindSniffer extends AbstractSniffer
 {

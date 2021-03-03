@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Unit\Sniffer;
+namespace OliverKlee\TddExercises\Tests\Unit\Sniffer;
 
-use OliverKlee\TddSeed\Sniffer\AbstractSniffer;
-use OliverKlee\TddSeed\Sniffer\SnifferInterface;
-use OliverKlee\TddSeed\Tests\Unit\Sniffer\Fixtures\BlindSniffer;
+use OliverKlee\TddExercises\Sniffer\AbstractSniffer;
+use OliverKlee\TddExercises\Sniffer\SnifferInterface;
+use OliverKlee\TddExercises\Tests\Unit\Sniffer\Fixtures\BlindSniffer;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \OliverKlee\TddSeed\Sniffer\AbstractSniffer
+ * @covers \OliverKlee\TddExercises\Sniffer\AbstractSniffer
  */
 final class AbstractSnifferTest extends TestCase
 {
