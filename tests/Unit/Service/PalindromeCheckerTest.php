@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Unit\Service;
+namespace OliverKlee\TddExercises\Tests\Unit\Service;
 
-use OliverKlee\TddSeed\Service\PalindromeChecker;
+use OliverKlee\TddExercises\Service\PalindromeChecker;
 use PHPUnit\Framework\TestCase;
 
 // check
@@ -22,7 +22,7 @@ use PHPUnit\Framework\TestCase;
 // 11 -> true
 
 /**
- * @covers \OliverKlee\TddSeed\Service\PalindromeChecker
+ * @covers \OliverKlee\TddExercises\Service\PalindromeChecker
  */
 final class PalindromeCheckerTest extends TestCase
 {

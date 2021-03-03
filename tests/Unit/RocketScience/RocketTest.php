@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Unit\RocketScience;
+namespace OliverKlee\TddExercises\Tests\Unit\RocketScience;
 
-use OliverKlee\TddSeed\RocketScience\Rocket;
+use OliverKlee\TddExercises\RocketScience\Rocket;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \OliverKlee\TddSeed\RocketScience\Rocket
+ * @covers \OliverKlee\TddExercises\RocketScience\Rocket
  */
 final class RocketTest extends TestCase
 {

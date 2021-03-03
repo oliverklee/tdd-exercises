@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\RocketScience;
+namespace OliverKlee\TddExercises\RocketScience;
 
 class Rocket
 {

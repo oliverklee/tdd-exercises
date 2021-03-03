@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Service;
+namespace OliverKlee\TddExercises\Service;
 
 
 class PalindromeFinder

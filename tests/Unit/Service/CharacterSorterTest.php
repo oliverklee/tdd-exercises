@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Unit\Service;
+namespace OliverKlee\TddExercises\Tests\Unit\Service;
 
-use OliverKlee\TddSeed\Service\CharacterSorter;
+use OliverKlee\TddExercises\Service\CharacterSorter;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \OliverKlee\TddSeed\Service\CharacterSorter
+ * @covers \OliverKlee\TddExercises\Service\CharacterSorter
  */
 final class CharacterSorterTest extends TestCase
 {

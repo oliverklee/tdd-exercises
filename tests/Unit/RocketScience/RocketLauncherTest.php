@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Unit\RocketScience;
+namespace OliverKlee\TddExercises\Tests\Unit\RocketScience;
 
-use OliverKlee\TddSeed\RocketScience\Rocket;
-use OliverKlee\TddSeed\RocketScience\RocketLauncher;
+use OliverKlee\TddExercises\RocketScience\Rocket;
+use OliverKlee\TddExercises\RocketScience\RocketLauncher;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ObjectProphecy;
 
 /**
- * @covers \OliverKlee\TddSeed\RocketScience\RocketLauncher
+ * @covers \OliverKlee\TddExercises\RocketScience\RocketLauncher
  */
 final class RocketLauncherTest extends TestCase
 {

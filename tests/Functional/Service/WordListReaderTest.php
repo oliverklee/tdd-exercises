@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Functional\Service;
+namespace OliverKlee\TddExercises\Tests\Functional\Service;
 
 use InvalidArgumentException;
-use OliverKlee\TddSeed\Service\WordListReader;
+use OliverKlee\TddExercises\Service\WordListReader;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
 use UnexpectedValueException;
 
 /**
- * @covers \OliverKlee\TddSeed\Service\WordListReader
+ * @covers \OliverKlee\TddExercises\Service\WordListReader
  */
 final class WordListReaderTest extends TestCase
 {
