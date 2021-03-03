@@ -64,7 +64,7 @@ final class WordListReaderTest extends TestCase
     public function readFileForFileWithTwoWordsReturnsArrayWithTwoWord(string $content): void
     {
         $root = vfsStream::setup('irgendwas');
-        $file = vfsStream::newFile('pter.txt')->withContent($content)->at($root);
+        $file = vfsStream::newFile('peter.txt')->withContent($content)->at($root);
 
         $result = $this->wordListReader->readFile($file->url());
         self::assertSame(['Hans', 'Meiser'], $result);
@@ -85,16 +85,14 @@ final class WordListReaderTest extends TestCase
      * @test
      *
      */
-    public function readFileForFileWithTwoWordsInOneLineThrowsException(): void
+    public function readFileForFileWithCompoundWordInOneLineReturnCompoundWord(): void
     {
-        $this->expectException(UnexpectedValueException::class);
-        $this->expectExceptionMessage('More than one word per line was found');
-        $this->expectExceptionCode(1610639067);
-
+        $word = 'chicken soup';
         $root = vfsStream::setup('irgendwas');
-        $file = vfsStream::newFile('pter.txt')->withContent("Hans Meiser")->at($root);
+        $file = vfsStream::newFile('peter.txt')->withContent($word)->at($root);
 
-        $this->wordListReader->readFile($file->url());
+        $result = $this->wordListReader->readFile($file->url());
+        self::assertSame([$word], $result);
     }
 
     //- Datei mit mehr als ein Wort innerhalb irgendeiner Zeile: Exception
