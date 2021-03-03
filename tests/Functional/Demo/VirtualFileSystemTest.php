@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Functional\Demo;
+namespace OliverKlee\TddExercises\Tests\Functional\Demo;
 
 use org\bovigo\vfs\vfsStream;
 use org\bovigo\vfs\vfsStreamDirectory;

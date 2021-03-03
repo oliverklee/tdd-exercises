@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Unit\Sniffer;
+namespace OliverKlee\TddExercises\Tests\Unit\Sniffer;
 
-use OliverKlee\TddSeed\Sniffer\SnifferInterface;
+use OliverKlee\TddExercises\Sniffer\SnifferInterface;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ProphecySubjectInterface;

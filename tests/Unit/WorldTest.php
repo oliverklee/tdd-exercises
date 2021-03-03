@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace OliverKlee\TddSeed\Tests\Unit;
+namespace OliverKlee\TddExercises\Tests\Unit;
 
-use OliverKlee\TddSeed\World;
+use OliverKlee\TddExercises\World;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \OliverKlee\TddSeed\World
+ * @covers \OliverKlee\TddExercises\World
  */
 final class WorldTest extends TestCase
 {

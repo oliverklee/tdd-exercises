@@ -1,12 +1,13 @@
 {
-    "name": "oliverklee/tdd-seed",
-    "description": "Starter repository for a project with PHPUnit",
+    "name": "oliverklee/tdd-exercises",
+    "description": "Code for workshops on PHPUnit",
     "type": "project",
     "keywords": [
-        "template",
         "tdd",
         "phpunit",
-        "unit testing"
+        "unit testing",
+        "workshop",
+        "exercises"
     ],
     "homepage": "https://github.com/oliverklee/tdd-reader",
     "license": "GPL-3.0-or-later",
@@ -19,8 +20,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/oliverklee/tdd-seed",
-        "issues": "https://github.com/oliverklee/tdd-seed/issues"
+        "source": "https://github.com/oliverklee/tdd-exercises",
+        "issues": "https://github.com/oliverklee/tdd-exercises/issues"
     },
     "require": {
         "php": "~7.4.0 || ~8.0.0",
@@ -34,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "OliverKlee\\TddSeed\\": "src/"
+            "OliverKlee\\TddExercises\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OliverKlee\\TddSeed\\Tests\\": "tests/"
+            "OliverKlee\\TddExercises\\Tests\\": "tests/"
         }
     },
     "prefer-stable": true,
